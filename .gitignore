@@ -1,0 +1,67 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE / Editors =====
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.kotlin/
+.fleet/
+
+# ===== Archives / large binaries =====
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# ===== Secrets / env =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+local.properties
+
+# ===== Logs =====
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Node / TypeScript (backend) =====
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+.tsbuildinfo
+*.tsbuildinfo
+
+# ===== Gradle / Android (SleepSense) =====
+.gradle/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+
+# ===== Android Studio / Kotlin =====
+*.hprof
+proguard/
+
+# ===== Claude / tooling =====
+.claude/
